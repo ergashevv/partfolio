@@ -46,7 +46,7 @@ function App() {
               <span>Hi, I'm</span>
               <h1>Pulat Ergashev</h1>
               <div className="tag">
-                <span>Front-end Developer / Mobilographer</span>
+                <span>Middle Front-end Developer / Mobilographer</span>
               </div>
               <div className="social-links">
                 <button>
