@@ -1,19 +1,32 @@
 import "./App.scss";
 import { Mail, GitFork, Linkedin, ArrowLeftToLine } from "lucide-react";
-import Edevzi from "./edevzi.png";
+import Edevzi from "./polat.png";
 import BG from "./bg.png";
 import PNG from "./png.png";
 import JS from './js.png'
 import TS from './ts.png'
 import NS from './next.png'
 import RS from './react.png'
-import Image from './image.png'
 import Insta from './instagram.png'
 import Tg from './telegram.png'
 import Fb from './facebook.png'
 import Li from './linkedin.png'
-import Amcham from './amcham.png'
-import Iarc from './iarc.png'
+
+import Html from './html.png'
+import Css from './scss.png'
+import Scss from './sass.png'
+import Git from './git.png'
+import Ubuntu from './ubuntu.png'
+import Bt from './bt.png'
+import Github from './github.png'
+
+import Akfa from './akfa.png'
+import Makler from './makler.png'
+import Nayuta from './mayuta.png'
+import Slot from './slot.png'
+import Taminot from './taminot.png'
+import Uskuna from './uskuna.png'
+import Word from './wordmap.png'
 function App() {
   return (
     <div className="app">
@@ -153,6 +166,40 @@ with dynamic features and high-performance.
                     <img src={NS} alt="" />
                     <span>Next.JS</span>
                   </div>
+                  <div className="tool">
+                    <img src={NS} alt="" />
+                    <span>Next.JS</span>
+                  </div>
+
+                  <div className="tool">
+                    <img src={Html} alt="" />
+                    <span>Html</span>
+                  </div>
+                  <div className="tool">
+                    <img src={Css} alt="" />
+                    <span>CSS</span>
+                  </div>
+                  <div className="tool">
+                    <img src={Scss} alt="" />
+                    <span>Sass</span>
+                  </div>
+                  <div className="tool">
+                    <img src={Git} alt="" />
+                    <span>Git</span>
+                  </div>
+                  <div className="tool">
+                    <img src={Github} alt="" />
+                    <span>Github</span>
+                  </div>
+                  <div className="tool">
+                    <img src={Ubuntu} alt="" />
+                    <span>Ubuntu server</span>
+                  </div>
+                  <div className="tool">
+                    <img src={Bt} alt="" />
+                    <span>Bootstrap</span>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -168,18 +215,38 @@ with dynamic features and high-performance.
         </div>
         <div className="inner">
         <div className="block1">
-          <a href="https://akfabuild.com" target="_blank">
-            <img src={Image} alt="" />
+          <a href="https://akfagroup.com" target="_blank">
+            <img src={Akfa} alt="" />
           </a>
         </div>
         <div className="block1">
-          <a href="https://amcham.uz" target="_blank">
-            <img src={Amcham} alt="" />
+          <a href="https://makleruz.uz/" target="_blank">
+            <img src={Makler} alt="" />
           </a>
         </div>
         <div className="block1">
-          <a href="https://iarc.uz" target="_blank">
-            <img src={Iarc} alt="" />
+          <a href="https://nayuta.uz/" target="_blank">
+            <img src={Nayuta} alt="" />
+          </a>
+        </div>
+        <div className="block1">
+          <a href="https://slotspot.uz/" target="_blank">
+            <img src={Slot} alt="" />
+          </a>
+        </div>
+        <div className="block1">
+          <a href="https://taminot24.uz/" target="_blank">
+            <img src={Taminot} alt="" />
+          </a>
+        </div>
+        <div className="block1">
+          <a href="https://uskunalar.uz/" target="_blank">
+            <img src={Uskuna} alt="" />
+          </a>
+        </div>
+        <div className="block1">
+          <a href="https://wordmap.uz/" target="_blank">
+            <img src={Word} alt="" />
           </a>
         </div>
         </div>

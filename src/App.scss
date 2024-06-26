@@ -238,6 +238,8 @@
           .tools {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 70px;
             .tool {
               img {
                 width: 70px;
@@ -277,6 +279,7 @@
     }
     .inner {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       .block1 {
         width: 33.33%;
@@ -574,6 +577,7 @@
             }
             .tools {
               flex-wrap: wrap;
+              gap: 0;
               .tool {
                 margin-bottom: 30px;
                 width: 50%;
